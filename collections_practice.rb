@@ -32,3 +32,19 @@ def find_a(array)
     word[0] = a
   end
 end
+def sum(array)
+  array.each do |num|
+    sum+= num
+  end
+end
+
+def add_s(array)
+  array.collect do |word|
+    if array[1] = word 
+      word
+    else
+      word + 's'
+    end
+  end
+end
+
