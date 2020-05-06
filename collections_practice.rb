@@ -29,10 +29,10 @@ def kesha_maker(array)
 end
 def find_a(array)
   array.select do |word|
-    word[0] = a
+    word[0] = 'a'
   end
 end
-def sum(array)
+def sum_array(array)
   array.each do |num|
     sum+= num
   end
@@ -45,5 +45,7 @@ def add_s(array)
     else
       word + 's'
     end
+
   end
+  array
 end
