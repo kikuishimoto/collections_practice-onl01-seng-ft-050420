@@ -29,9 +29,7 @@ def kesha_maker(array)
 end
 def find_a(array)
   array.select do |word|
-    while word[0] = 'a'
-      return word
-    end
+    word[0] == 'a'
   end
 end
 def sum_array(array)
