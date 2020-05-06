@@ -36,6 +36,7 @@ def sum_array(array)
   array.each do |num|
     sum+= num
   end
+  sum
 end
 
 def add_s(array)
@@ -47,5 +48,5 @@ def add_s(array)
     end
 
   end
-  sum
+  array
 end
